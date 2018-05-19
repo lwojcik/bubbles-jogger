@@ -1,0 +1,20 @@
+#main {
+	width: 796px;
+	margin: 20px auto;
+}
+
+#content h2 {
+	font-size: 1.5em;
+}
+
+#sidebar form {
+	margin-bottom: 10px;
+}
+
+#miniblog h4 {
+	font-size: 1.1em;
+}
+
+#footer {
+	padding-bottom: 10px;
+}

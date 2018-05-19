@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">   
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="/files/style.css" />
+<!--[if IE 6]><link rel="stylesheet" type="text/css" href="/files/style-ie6.css" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="/files/style-ie7.css" /><![endif]-->
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0 - Wpisy" href="&RSS;content/html/20/" />
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0 - Nagłówki" href="&RSS;10/" />
+<title><JOG_TITLE/></title>
+</head>
+<body>
+<div id="header">
+<h1><a href="&HOME;"><JOG_TITLE/></a></h1>
+<p class="desc"><STATUS_DESCR/></p>
+</div>
+<div id="main">
+<div id="content">
+<ENTRY_BLOCK><h2><a href="&ENTRY_COMMENT_HREF;" title="Permalink wpisu: &ENTRY_TITLE;"><ENTRY_SUBJECT/></a></h2>
+<small class="postmeta">Poziom <ENTRY_LEVEL/>, <ENTRY_DATE/>, <ENTRY_HOUR/> @ <ENTRY_CATEGORY_BLOCK><a href="&ENTRY_CATEGORY_HREF;"><ENTRY_CATEGORY_HREF_DESCR/></a><ENTRY_CATEGORY_NOT_LAST>, </ENTRY_CATEGORY_NOT_LAST></ENTRY_CATEGORY_BLOCK> <ADMIN_BLOCK><a href="&ADMIN_ENTRY_EDIT_HREF;">(edytuj)</a> <a href="&ADMIN_ENTRY_REMOVE_HREF;">(usuń)</a></ADMIN_BLOCK></small>
+<ENTRY_CONTENT_SHORT/>
+<ENTRY_CONTENT_SHORT_EXIST>
+<p><a href="&ENTRY_COMMENT_HREF;#more">Czytaj dalej...</a></p></ENTRY_CONTENT_SHORT_EXIST>
+<p class="commentlink"><a href="&ENTRY_COMMENT_HREF;"><ENTRY_COMMENT_HREF_DESCR/></a></p>
+</ENTRY_BLOCK>
+</div>
+<div id="sidebar">
+<h3>Szukaj</h3>
+<form action="/szukaj/" method="post">
+<fieldset><label for="search"></label><input  size="15" type="text" name="search" id="search" /></fieldset>
+<fieldset><input type="submit" id="searchsubmit" value="szukaj!" /></fieldset>
+</form>
+<!-- <h3>Miniblog</h3>
+<ul id="miniblog"><MINIBLOG_BLOCK>
+<li><h4><a href="&ENTRY_COMMENT_HREF;"><ENTRY_SUBJECT/></a></h4>
+<ENTRY_CONTENT/>
+<p><a href="&ENTRY_COMMENT_HREF;"><ENTRY_COMMENT_HREF_DESCR/></a></p>
+</li></MINIBLOG_BLOCK>
+</ul> //-->
+<h3>Archiwum</h3>
+<ul><ARCHIVE_BLOCK>
+<li><a href="&ARCHIVE_HREF;"><ARCHIVE_HREF_DESCR/> (<ARCHIVE_ENTRIES/>)</a></li></ARCHIVE_BLOCK></ul>
+<h3>Kategorie</h3>
+<ul><CATEGORY_BLOCK>
+<li><a href="&CATEGORY_HREF;" title="Wpisów: &CATEGORY_ENTRIES;"><CATEGORY_HREF_DESCR/> (<CATEGORY_ENTRIES/>)</a></li>
+</CATEGORY_BLOCK>
+</ul>
+<LINK_GROUP_BLOCK>
+<h3><LINK_GROUP_DESCR/></h3>
+<ul>
+<LINK_BLOCK>
+<li><a href="&LINK_HREF;"><LINK_HREF_DESCR/></a></li>
+</LINK_BLOCK>
+</ul>
+</LINK_GROUP_BLOCK>
+<h3>Credits</h3>
+<p><a href="http://chasethestars.com/"><img src="/files/chasethestars.gif" alt="" /></a><br/>
+Theme by <a href="http://chasethestars.com/">Stacey Leung</a><br/>
+Powered by <a href="http://jogger.pl/">Jogger</a><br/>
+Ported by <a href="http://lukem.jogger.pl/">Lukem</a>
+</p>
+</div>
+</div>
+</body>
+</html>
