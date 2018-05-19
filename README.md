@@ -1,5 +1,5 @@
 # Bubbles Jogger theme
 
-Port of Bubbles WordPress theme by [http://chasethestars.com/](Stacey Leung) I made in 2008 for now-defunct Jogger.pl blogging platform.
+Port of Bubbles WordPress theme by [Stacey Leung](http://chasethestars.com/) I made in 2008 for now-defunct Jogger.pl blogging platform.
 
-Licensed under MIT. See [https://github.com/lwojcik/bubbles-jogger/blob/master/LICENSE](LICENSE) for more info.
+Licensed under MIT. See [LICENSE](https://github.com/lwojcik/bubbles-jogger/blob/master/LICENSE) for more info.
